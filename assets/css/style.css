@@ -71,3 +71,64 @@ a span {
 .btn:active {
     outline: inherit;
 }
+a,
+button,
+a span {
+    -webkit-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+}
+.btn.extra-width {
+    padding: 13px 40px;
+}
+.btn:focus,
+.btn:active {
+    outline: inherit;
+}
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    /*    direction: rtl;*/
+}
+p {
+    margin: 0 0 15px;
+}
+.clear {
+    clear: both;
+}
+ol,
+ul {
+    list-style: none;
+    padding: 0;
+}
+img {
+    max-width: 100%;
+}
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input {
+    outline: none;
+}
+.form-control {
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    font-size: 16px;
+    height: 34px;
+    max-width: 90%;
+    background: #323232;
+}
