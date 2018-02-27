@@ -190,3 +190,77 @@ p:last-child {
 /*
 Section
 */
+section{
+	margin:0;
+}
+.sections {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+    overflow: hidden;
+}
+.sections.footer {
+    padding-bottom: 80px;
+}
+section .subtitle h5 {
+    margin-top: 10px;
+    font-size: 1.3rem;
+    font-family: 'roboto', sans-serif;
+}
+.parallax-section {
+    max-width: 100%;
+    color: #ffffff;
+}
+section .title-half h2 {
+    font-size: 3rem;
+    line-height: 4rem;
+    font-weight: 300;
+    margin-bottom: 1.4rem;
+}
+section .subtitle-half h5 {
+    font-weight: 100;
+    font-size: 17px;
+}
+/*
+section:nth-of-type(odd) {
+    background-color: #F9F9F9;
+}*/
+.fw-special-title-half {
+    font-size: 2rem;
+    line-height: 3rem;
+    font-weight: 100;
+    /*    margin-bottom: 10px;*/
+}
+.heading {
+    margin-bottom: 4rem;
+}
+.overlay {
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    min-height: 750px;
+}
+.overlay-fluid-block {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+}
+.home-overlay-fluid {
+    background-color: rgba(41, 41, 41, 0.68);
+    width: 80%;
+    margin: auto;
+}
+.overlay-img {
+    background: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: #ffffff;
+}
+.no-padding {
+    padding: 0 !important;
+}
+.fluid-blocks-col {
+    padding: 70px 40px 0 80px;
+}
+.fluid-blocks-col-right {
+    padding: 70px 80px 0 40px;
+}
